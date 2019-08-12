@@ -1,0 +1,28 @@
+# Стандатрные для всех js проектов
+node_modules
+
+# npm v.5
+package-lock.json
+npm-debug.log
+
+# IDE (Idea, VIM, vscode)
+.idea
+*.swp
+*.swo
+.vscode
+*.sublime*
+
+# macOS
+.DS_Store
+
+# Результаты тестов
+/test_results/
+/test-results/
+
+# Гененерируемые файлы typescript
+src/**/*.js
+
+# Генерируемые файлы примеров документации
+/examples/
+
+

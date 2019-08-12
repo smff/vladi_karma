@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "jsx": "react",
+    "target": "es5",
+    "rootDirs": ["src"],
+    "typeRoots": [
+      "./custom_typings",
+      "./node_modules/@types"
+    ],
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+        "soem": ["./src/index.tsx"]
+    },
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "lib": [
+      "es2015.promise",
+      "es5",
+      "es2015.collection",
+      "dom"
+    ]
+  },
+  "exclude": [
+      "dist",
+      "node_modules"
+  ]
+}
