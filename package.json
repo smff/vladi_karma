@@ -16,7 +16,7 @@
     "es6-promise": "4.2.4",
     "es6-set": "0.1.5",
     "fork-ts-checker-webpack-plugin": "1.5.0",
-    "lodash": "4.17.4",
+    "lodash": "4.17.19",
     "moment": "2.20.1",
     "tslib": "1.9.3"
   },
